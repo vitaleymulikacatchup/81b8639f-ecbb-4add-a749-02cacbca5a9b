@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -11,7 +11,7 @@ import PricingCardTwo from '@/components/sections/pricing/PricingCardTwo';
 import FaqDouble from '@/components/sections/faq/FaqDouble';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
-import { Award, Crown, Gift, HelpCircle, Heart, Mail, Smile, Sparkles, Zap, Linkedin } from "lucide-react";
+import { Award, Crown, Gift, HelpCircle, Heart, Mail, Smile, Sparkles, Zap } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -216,7 +216,7 @@ export default function LandingPage() {
               rating: 5,
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765908740502-sum6k32e.jpg",
               imageAlt: "Sarah Mitchell",
-              linkedinUrl: "https://linkedin.com/in/sarahmitchell"
+              testimonial: "Child Life has been a game-changer for our family. The toys are not only fun but also educational. My kids love them and I feel confident in their quality and safety."
             },
             {
               id: "2",
@@ -226,7 +226,7 @@ export default function LandingPage() {
               rating: 5,
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765908741794-1yhnqypm.jpg",
               imageAlt: "James Rodriguez",
-              linkedinUrl: "https://linkedin.com/in/jamesrodriguez"
+              testimonial: "The customer service is amazing and the toys are worth every penny. My daughter's creativity has flourished since we started shopping here."
             },
             {
               id: "3",
@@ -236,7 +236,7 @@ export default function LandingPage() {
               rating: 5,
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765908742919-gcm3qgb2.jpg",
               imageAlt: "Emma Thompson",
-              linkedinUrl: "https://linkedin.com/in/emmathompson"
+              testimonial: "As an educator, I appreciate how carefully curated their toy selection is. Each item supports child development in meaningful ways."
             },
             {
               id: "4",
@@ -246,7 +246,7 @@ export default function LandingPage() {
               rating: 5,
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765908744853-it7np4z8.jpg",
               imageAlt: "Lisa Chen",
-              linkedinUrl: "https://linkedin.com/in/lisachen"
+              testimonial: "The VIP membership has saved us so much money. Free shipping and priority support make shopping here a breeze."
             },
             {
               id: "5",
@@ -256,7 +256,7 @@ export default function LandingPage() {
               rating: 5,
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765908746197-3ri1ulpu.jpg",
               imageAlt: "David Park",
-              linkedinUrl: "https://linkedin.com/in/davidpark"
+              testimonial: "With three kids, I need toys that last. Child Life consistently delivers durable, safe products that keep my children engaged for hours."
             },
             {
               id: "6",
@@ -266,7 +266,7 @@ export default function LandingPage() {
               rating: 5,
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765908747323-f8xjz9tc.jpg",
               imageAlt: "Anna Williams",
-              linkedinUrl: "https://linkedin.com/in/annawilliams"
+              testimonial: "As a grandmother, I love giving gifts that are both fun and educational. Child Life makes it easy to find the perfect toys for my grandchildren."
             }
           ]}
           ariaLabel="Parent testimonials section"
