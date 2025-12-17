@@ -11,7 +11,7 @@ import PricingCardTwo from '@/components/sections/pricing/PricingCardTwo';
 import FaqDouble from '@/components/sections/faq/FaqDouble';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
-import { Award, Crown, Gift, HelpCircle, Heart, Mail, Smile, Sparkles, Zap } from "lucide-react";
+import { Award, Crown, Gift, HelpCircle, Heart, Mail, Smile, Sparkles, Zap, Linkedin } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -33,7 +33,7 @@ export default function LandingPage() {
           navItems={[
             { name: "About", id: "about" },
             { name: "Products", id: "products" },
-            { name: "Reviews", id: "reviews" },
+            { name: "Reviews", id: "testimonials" },
             { name: "FAQ", id: "faq" },
             { name: "Contact", id: "contact" }
           ]}
@@ -215,7 +215,8 @@ export default function LandingPage() {
               company: "Happy Family",
               rating: 5,
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765908740502-sum6k32e.jpg",
-              imageAlt: "Sarah Mitchell"
+              imageAlt: "Sarah Mitchell",
+              linkedinUrl: "https://linkedin.com/in/sarahmitchell"
             },
             {
               id: "2",
@@ -224,7 +225,8 @@ export default function LandingPage() {
               company: "Joy Homes",
               rating: 5,
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765908741794-1yhnqypm.jpg",
-              imageAlt: "James Rodriguez"
+              imageAlt: "James Rodriguez",
+              linkedinUrl: "https://linkedin.com/in/jamesrodriguez"
             },
             {
               id: "3",
@@ -233,7 +235,8 @@ export default function LandingPage() {
               company: "Learning Centers",
               rating: 5,
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765908742919-gcm3qgb2.jpg",
-              imageAlt: "Emma Thompson"
+              imageAlt: "Emma Thompson",
+              linkedinUrl: "https://linkedin.com/in/emmathompson"
             },
             {
               id: "4",
@@ -242,7 +245,8 @@ export default function LandingPage() {
               company: "Bright Kids",
               rating: 5,
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765908744853-it7np4z8.jpg",
-              imageAlt: "Lisa Chen"
+              imageAlt: "Lisa Chen",
+              linkedinUrl: "https://linkedin.com/in/lisachen"
             },
             {
               id: "5",
@@ -251,7 +255,8 @@ export default function LandingPage() {
               company: "Play & Learn",
               rating: 5,
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765908746197-3ri1ulpu.jpg",
-              imageAlt: "David Park"
+              imageAlt: "David Park",
+              linkedinUrl: "https://linkedin.com/in/davidpark"
             },
             {
               id: "6",
@@ -260,7 +265,8 @@ export default function LandingPage() {
               company: "Family First",
               rating: 5,
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765908747323-f8xjz9tc.jpg",
-              imageAlt: "Anna Williams"
+              imageAlt: "Anna Williams",
+              linkedinUrl: "https://linkedin.com/in/annawilliams"
             }
           ]}
           ariaLabel="Parent testimonials section"
@@ -283,7 +289,7 @@ export default function LandingPage() {
               badge: "Starter",
               badgeIcon: Smile,
               price: "Free",
-              subtitle: "Perfect for trying us out",
+              name: "Starter Plan",
               buttons: [
                 { text: "Get Started", href: "#contact" },
                 { text: "Learn More", href: "#" }
@@ -300,7 +306,7 @@ export default function LandingPage() {
               badge: "Family Plus",
               badgeIcon: Sparkles,
               price: "$9.99/mo",
-              subtitle: "Best for regular shoppers",
+              name: "Family Plus Plan",
               buttons: [
                 { text: "Subscribe Now", href: "#contact" },
                 { text: "Chat to Sales", href: "#" }
@@ -318,7 +324,7 @@ export default function LandingPage() {
               badge: "VIP Club",
               badgeIcon: Crown,
               price: "$19.99/mo",
-              subtitle: "Maximum savings and perks",
+              name: "VIP Club Plan",
               buttons: [
                 { text: "Join VIP", href: "#contact" },
                 { text: "Chat to Sales", href: "#" }
